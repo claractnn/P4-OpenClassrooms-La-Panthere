@@ -1040,3 +1040,48 @@ h4 {
         text-align: center;
     }
 }
+
+
+/* CORRECTION */
+
+/* HEADER */
+
+/* SERVICES */
+
+.service-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.service-title h2 {
+    display: flex;
+    width: 85%;
+    font-size: 20px;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.service-container {
+    display: flex;
+    width: 85%;
+}
+
+.service-info {
+    font-size: 16px;
+}
+
+.citation-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin: auto;
+}
+
+.citation-subtitle {
+    font-size: 15px;
+}
+
+/* WHAT I DO */
+
