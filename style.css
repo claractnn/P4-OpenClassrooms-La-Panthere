@@ -1044,7 +1044,9 @@ h4 {
 
 /* CORRECTION */
 
-/* HEADER */
+/* PAGE INDEX */
+
+/* DESKTOP VERSION */
 
 /* SERVICES */
 
@@ -1057,7 +1059,7 @@ h4 {
 .service-title h2 {
     display: flex;
     width: 85%;
-    font-size: 20px;
+    font-size: 22px;
     justify-content: center;
     font-weight: bold;
     margin-bottom: 30px;
@@ -1073,7 +1075,7 @@ h4 {
 }
 
 .citation-title {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     font-style: italic;
     margin: auto;
@@ -1084,4 +1086,174 @@ h4 {
 }
 
 /* WHAT I DO */
+
+.whatido-title {
+    font-size: 22px;
+}
+
+.whatido-subtitle {
+    font-size: 16px;    
+}
+
+/* PORTFOLIO */ 
+
+.portfolio-cards {
+    max-width: 90%;
+}
+
+.portfolio-img {
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+}
+
+.portfolio-title {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.portfolio-title h3 {
+    font-size: 22px;
+    width: 60%;
+}
+
+.portfolio-text {
+    font-size: 15px;
+}
+
+/* CONTACT */
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.cta-title {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+/* FOOTER */
+
+.footer-container {
+    padding: 10px;
+}
+
+.footer-title {
+    font-size: 14px;
+}
+
+.footer-icons {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* TABLET VERSION */
+
+@media (max-width: 980px) {
+    .service-title {
+        display: flex;
+        justify-content: center;
+        width: 95%;
+    }
+
+    .service-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service-bloc {
+        width: 90%;
+    }
+
+    .citation {
+        margin: auto;
+    }
+
+    .citation-title {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .portfolio-row {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .portfolio-title h3 {
+        width: 85%;
+    }
+
+    .portfolio-card {
+        margin: 20px 0 20px;
+        width: 100%;
+    }
+
+    .portfolio-img {
+        height: 530px;
+    }
+}
+
+/* MOBILE VERSION*/
+
+@media (max-width: 450px) {
+
+    .service-title h2 {
+        display: flex;
+        width: 95%;
+        font-size: 20px;
+        justify-content: center;
+    }
+
+    .service-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service-bloc {
+        width: 90%;
+    }
+
+    .service-bloc h3 {
+        font-size: 18px;
+    }
+
+    .citation {
+        margin: 25px 0 5px;
+    }
+
+    .citation-title {
+        width: 95%;
+    }
+
+    .portfolio-container {
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .portfolio-title h3 {
+        width: 90%;
+    }
+
+    .portfolio-img {
+        display: flex;
+        justify-content: center;
+        height: 300px;
+    }
+
+    .portfolio-card {
+        margin-top: 20px;
+    }
+}
+
+
+/* PAGE CONTACT */
 
