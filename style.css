@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #404040;
 }
 
 .container {
@@ -713,7 +713,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 }
 
 .med-width-whitespace {
@@ -723,11 +723,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333;
 }
 
 .icons {
@@ -736,7 +736,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -775,38 +775,38 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #c27956;
+    color: #FFFFFF;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
@@ -1046,7 +1046,30 @@ h4 {
 
 /* PAGE INDEX */
 
+/* BODY */
+
+.html {
+    max-width: 1500px!important;
+}
+
+/* BOUTONS */
+
+.btn-contact {
+    color: #404040!important; 
+}
+
 /* DESKTOP VERSION */
+
+/* HEADER */
+
+.site-navigation li:hover {
+    color: #F3976C;
+}
+
+.nav-header-link:hover {
+    color: #F3976C!important;
+    text-decoration: underline!important;
+}
 
 /* SERVICES */
 
@@ -1134,6 +1157,7 @@ h4 {
     display: flex;
     justify-content: center;
     font-size: 22px;
+    color: white;
 }
 
 /* FOOTER */
@@ -1144,6 +1168,7 @@ h4 {
 
 .footer-title {
     font-size: 14px;
+    color: #404040;
 }
 
 .footer-icons {
@@ -1151,6 +1176,15 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.footer-icon {
+    color: #404040!important;
+}
+
+.footer-icon:hover {
+    color: #404040;
+    filter: brightness(70%);
 }
 
 /* TABLET VERSION */
@@ -1266,10 +1300,12 @@ h4 {
 .contact-banner-title {
     font-weight: bold;
     font-size: 40px;
+    color: #404040;
 }
 
 .contact-banner-subtitle {
     font-size: 20px;
+    color: #404040;
 }
 
 /* CONTACT INFOS */
