@@ -1110,6 +1110,11 @@ h4 {
 
 /* WHAT I DO */
 
+.whatido-bloc {
+    background-color: #404040!important;
+    opacity: 0.7;
+}
+
 .whatido-title {
     font-size: 22px;
 }
