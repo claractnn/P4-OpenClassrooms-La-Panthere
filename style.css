@@ -1257,3 +1257,43 @@ h4 {
 
 /* PAGE CONTACT */
 
+/* BANNER */
+
+.contact-banner {
+    padding: 40px 0;
+}
+
+.contact-banner-title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.contact-banner-subtitle {
+    font-size: 20px;
+}
+
+/* CONTACT INFOS */
+
+.contact-bloc-infos {
+    width: 87%;
+}
+
+.contact-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.contact-info {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.contact-icon {
+    padding-right: 5px;
+}
+
