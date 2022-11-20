@@ -1172,7 +1172,7 @@ h4 {
     }
 
     .citation {
-        margin: auto;
+        margin: 30px 0;
     }
 
     .citation-title {
@@ -1204,7 +1204,7 @@ h4 {
 
 /* MOBILE VERSION*/
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
 
     .service-title h2 {
         display: flex;
