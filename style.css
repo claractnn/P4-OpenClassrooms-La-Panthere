@@ -793,20 +793,12 @@ h4 {
     border-color: #364577;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/agence-la-panthere-4.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-preseentation-4.jpg");
+    background-image: url("img/image-de-presentation-4.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1093,6 +1085,7 @@ h4 {
 
 .citation-subtitle {
     font-size: 15px;
+    color: #212121;
 }
 
 /* WHAT I DO */
