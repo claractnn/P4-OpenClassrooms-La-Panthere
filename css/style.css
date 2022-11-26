@@ -794,11 +794,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere-4.jpg");
+    background-image: url("../img/agence-la-panthere-4.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation-4.jpg");
+    background-image: url("../img/image-de-presentation-4.jpg");
 }
 
 @media (max-width: 1024px) {
